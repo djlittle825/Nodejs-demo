@@ -36,7 +36,6 @@ jobs:
 
         - name: Install dependencies
           run: npm install
-          working-directory: ./ # or adjust to the correct subfolder
-
+          
         - name: build app
           run: npm run build
